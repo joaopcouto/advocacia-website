@@ -1,11 +1,11 @@
-header {
+header{
     width: 100%;
-    max-height: 125px;
+    max-height: 12rem;
     position: fixed;
     top: 0;
     left: 0;
-    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
     background-color: #212121;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
 }
 
 header nav#navbar{
@@ -17,15 +17,15 @@ header nav#navbar{
     padding: 0 2rem;
 }
 
-header nav#navbar .nav-brand {
+header nav#navbar .nav-brand{
     display: flex;
     align-items: center;
-
+    color: #fff;
     gap: 1rem;
     font-size: 10px;
 }
 
-header nav#navbar ul.nav-list {
+header nav#navbar ul.nav-list{
     display: flex;
     align-items: center;
     
@@ -33,13 +33,13 @@ header nav#navbar ul.nav-list {
     gap: 1rem;
 }
  
-header nav#navbar ul.nav-list li a {
+header nav#navbar ul.nav-list li a{
     color: white;
     font-size: 1.1rem;
     transition: color 0.3s;
 }
 
-header nav#navbar ul.nav-list li a:hover  {
+header nav#navbar ul.nav-list li a:hover{
     color: #ccc;
     transition: color 0.3s;
     
