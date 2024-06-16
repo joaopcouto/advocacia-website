@@ -27,19 +27,19 @@ export function Footer() {
         </li>
         <li>
           <img src={emailImg} alt="" />
-          <a href="">advocaciafreitascouto@gmail.com</a>
+          <a href="mailto:advocaciafreitascouto@gmail.com">advocaciafreitascouto@gmail.com</a>
         </li>
         <li>
           <img src={phoneImg} alt="" />
-          <a href="">55 (12) 99739-8999</a>
+          <a href="tel:5512997398999">55 (12) 99739-8999</a>
         </li>
         <li>
         <img src={whatsappImg} alt="" />
-          <a href="">55 (12) 99739-8999</a>
+          <a target='_blank' href="https://wa.me/5512997398999">55 (12) 99739-8999</a>
         </li>
         <li>
         <img src={instagramImg} alt="" />
-          <a target='_blank' href="https://www.instagram.com/advocaciafreitascouto/">advocaciafreitascouto</a>
+          <a target='_blank' href="https://www.instagram.com/advocaciafreitascouto/">@advocaciafreitascouto</a>
         </li>
       </ul>
 

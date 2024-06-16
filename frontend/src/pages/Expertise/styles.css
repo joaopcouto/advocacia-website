@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    gap: 7rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.expertise-title{
+    margin-top: 2rem;
+    font-size: xx-large;
+}
+
+.secao-esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 3rem;
+}
+
+.secao-direita{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 3rem;
+}
+
+.especialidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 1.2rem;
+    border-width: 10px;
+    border-style: ridge;
+    border-color: #212121;
+}
+
+section li {
+    list-style: none;
+    color: grey;
+}

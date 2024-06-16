@@ -1,9 +1,10 @@
 footer{
+    font-family: sans-serif;
     width: 100%;
     height: 12rem;
     position: static;
+    padding-top: 0.8rem;
     bottom: 0;
-    margin-top: auto;
     background-color: #212121;
     box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.25);
 }
@@ -55,7 +56,8 @@ div .footer-contact ul.footer-list img{
 }
 
 
-div .footer-contact ul a{
+div .footer-contact a{
     color: #fff;
+    font-weight: bold;
 }
 

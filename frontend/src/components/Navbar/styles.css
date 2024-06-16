@@ -1,4 +1,7 @@
 header{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
     width: 100%;
     max-height: 12rem;
     position: fixed;
@@ -30,18 +33,24 @@ header nav#navbar ul.nav-list{
     align-items: center;
     
     list-style: none;
-    gap: 1rem;
-}
- 
-header nav#navbar ul.nav-list li a{
-    color: white;
-    font-size: 1.1rem;
-    transition: color 0.3s;
+    gap: 1.5rem;
 }
 
-header nav#navbar ul.nav-list li a:hover{
-    color: #ccc;
+header nav#navbar ul.nav-list li button{
+    color: white;
+    font-size: 1.3rem;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
     transition: color 0.3s;
+    background: none;
+    cursor: pointer;
+   
+    border: none;
+}
+
+header nav#navbar ul.nav-list li button:hover{
+    color: #ccc;
+    transition: color 0.2s;
     
 }
 

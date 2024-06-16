@@ -1,19 +1,23 @@
 import { useState } from 'react'
-import { Header } from './components/Navbar/Header'
 import './styles/App.css'
+
+import { Header } from './components/Navbar/Header'
 import { Footer } from './components/Footer/Footer'
-import { Main } from './components/Main/Main'
+import { Contact } from './pages/Contact/Contact'
+import { Expertise } from './pages/Expertise/Expertise'
+import { Home } from './pages/Home/Home'
 
 
-function App() {
+
+export function App() {
 
   return (
     <>
       <div className='app-content'>
-      <Header/>
-      <Main />
+        <Header/>
+        <Expertise />
       </div>
-      <Footer />
+      <Footer />  
     </>
   )
 }

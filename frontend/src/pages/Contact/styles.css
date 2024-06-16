@@ -1,0 +1,50 @@
+.contact-title{
+    margin-top: 2rem;
+    font-size: xx-large;
+}
+
+div .contact-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1240px;
+    height: 30rem;
+    padding: 0 5rem; 
+    gap: 5.3rem;
+}
+
+.map{
+    display: flex;  
+    
+}
+
+.contact-info{
+    display: flex;
+    margin-right: 5rem;
+    font-family: sans-serif;
+}
+
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 2rem;
+    font-weight: bold;
+}
+
+.contact-list li {
+    display: flex;
+    gap: 0.5rem;
+    color: black;
+    gap: 1rem;
+    font-size: x-large;
+}
+
+
+.contact-list a {
+    font-weight: bold;
+    color: black;
+    
+}
+
