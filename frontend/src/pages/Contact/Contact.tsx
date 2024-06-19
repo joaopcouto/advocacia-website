@@ -6,7 +6,7 @@ import phoneImg from '../../assets/icons/phone-bold-black.svg'
 import whatsappImg from '../../assets/icons/whatsapp-logo-bold-black.svg'
 import instagramImg from '../../assets/icons/instagram-logo-bold-black.svg'
 
-export function Contact() {
+export const Contact: React.FC = () => {
   return (
     <>
     
@@ -37,7 +37,7 @@ export function Contact() {
           </li>
           <li>
           <img src={whatsappImg} alt="" />
-            <a target='_blank' href="https://wa.me/5512997398999">55 (12) 99739-8999</a>
+            <a target='_blank' href="https://wa.me/5512997398999?text=Olá,%20vi%20o%20seu%20anúncio%20e %20estou%20precisando%20de%20ajuda%20jurídica,%20poderia%20me%20ajudar%20com%20a%20minha%20questão?">55 (12) 99739-8999</a>
           </li>
           <li>
           <img src={instagramImg} alt="" />

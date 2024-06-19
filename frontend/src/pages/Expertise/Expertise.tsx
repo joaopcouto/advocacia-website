@@ -1,12 +1,14 @@
 import React from 'react'
 import './styles.css'
+import { Header } from '../../components/Navbar/Header'
+import { Footer } from '../../components/Footer/Footer'
+import ScrollButton from '../../components/ScrollButton/ScrollButton'
 
-export function Expertise() {
+export const Expertise: React.FC = () => {
   return (
     <>
     <h1 className='expertise-title'>Especialidades</h1>
     <main>
-        <section className="secao-esquerda">
             <div className='especialidade'>
                 <h2>Arbitragem</h2>
                 <ul>
@@ -34,8 +36,7 @@ export function Expertise() {
                 </ul>
             </div>
             
-        </section>
-        <section className="secao-direita">
+        
             <div className="especialidade">
                 <h2>Direito Bancário</h2>
                 <ul>
@@ -62,7 +63,6 @@ export function Expertise() {
                     <li>» Assessoria em fusões e aquisições (M&A), identificando, medindo e prevenindo os riscos jurídicos das operações.</li>
                 </ul>
             </div>
-        </section>
     </main>
     </>
   )

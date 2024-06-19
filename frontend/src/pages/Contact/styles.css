@@ -1,22 +1,23 @@
 .contact-title{
-    margin-top: 2rem;
-    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:8rem;
+    padding-top: 5rem;
+    font-size: 40px;
 }
 
 div .contact-main{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    max-width: 1240px;
-    height: 30rem;
-    padding: 0 5rem; 
+    justify-content: center;
+    height: 45rem;
     gap: 5.3rem;
 }
 
 .map{
     display: flex;  
-    
+    border: 4px black solid;
 }
 
 .contact-info{
@@ -35,16 +36,19 @@ div .contact-main{
 
 .contact-list li {
     display: flex;
-    gap: 0.5rem;
+    align-items: center;
     color: black;
     gap: 1rem;
     font-size: x-large;
 }
 
-
 .contact-list a {
     font-weight: bold;
     color: black;
-    
+    transition: color 0.3s;
 }
 
+.contact-list a:hover{
+    color: #868585;
+    transition: color 0.2s;
+}

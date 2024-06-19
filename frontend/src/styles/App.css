@@ -17,9 +17,8 @@ div .app-content{
     position: relative;
     margin-top: 8rem;
     align-items: center;
-    width: 100vw;
-    min-height: 100%;
+    width: 99vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
 }   

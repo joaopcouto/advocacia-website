@@ -38,7 +38,8 @@ div .footer-brand .logoImg{
 
 div .footer-contact li{
     display: flex;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 0.7rem;
     color: #fff;
 }
 
@@ -59,5 +60,10 @@ div .footer-contact ul.footer-list img{
 div .footer-contact a{
     color: #fff;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
+div .footer-contact a:hover{
+    color: #ccc;
+    transition: 0.2s;
+}

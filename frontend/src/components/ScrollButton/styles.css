@@ -1,0 +1,13 @@
+.scroll-button{
+   position: fixed;  
+   width: 2%; 
+   left: 97%; 
+   bottom: 20px; 
+   height: 40px; 
+   z-index: 1; 
+   cursor: pointer; 
+   background-color:rgba(1, 1, 1, 0.5) ;
+   border: none;
+   border-radius: 6px;
+}
+

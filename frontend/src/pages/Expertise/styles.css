@@ -1,41 +1,38 @@
 main {
     display: flex;
-    gap: 7rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 1200px;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    margin: 4rem 20rem ;
 }
 
 .expertise-title{
-    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    padding-top: 5rem;
     font-size: xx-large;
-}
-
-.secao-esquerda{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    gap: 3rem;
-}
-
-.secao-direita{
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    gap: 3rem;
 }
 
 .especialidade {
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
     align-items: center;
     padding: 1.5rem;
     gap: 1.2rem;
-    border-width: 10px;
+    border-width: 6px;
     border-style: ridge;
     border-color: #212121;
+    background-color: silver;
+    width: 500px;
+
 }
 
-section li {
+.especialidade li {
     list-style: none;
-    color: grey;
+    color: #212121;
 }

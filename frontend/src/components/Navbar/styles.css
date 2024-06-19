@@ -9,6 +9,7 @@ header{
     left: 0;
     background-color: #212121;
     box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
+    z-index: 1;
 }
 
 header nav#navbar{
@@ -36,9 +37,9 @@ header nav#navbar ul.nav-list{
     gap: 1.5rem;
 }
 
-header nav#navbar ul.nav-list li button{
+header nav#navbar ul.nav-list li a{
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: "Merriweather", serif;
     font-weight: 600;
     transition: color 0.3s;
@@ -48,7 +49,7 @@ header nav#navbar ul.nav-list li button{
     border: none;
 }
 
-header nav#navbar ul.nav-list li button:hover{
+header nav#navbar ul.nav-list li a:hover{
     color: #ccc;
     transition: color 0.2s;
     

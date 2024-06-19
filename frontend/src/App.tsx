@@ -9,14 +9,15 @@ import { Home } from './pages/Home/Home'
 
 
 
+
 export function App() {
 
   return (
     <>
-      <div className='app-content'>
-        <Header/>
-        <Expertise />
-      </div>
+      <Header/>
+        <div className='app-content'>
+          <Home />
+        </div>
       <Footer />  
     </>
   )
