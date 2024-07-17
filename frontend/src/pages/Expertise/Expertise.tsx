@@ -10,11 +10,12 @@ export const Expertise: React.FC = () => {
     <h1 className='expertise-title'>Especialidades</h1>
     <main>
             <div className='especialidade'>
-                <h2>Arbitragem</h2>
+                <h2>Direito Imobiliário</h2>
                 <ul>
-                    <li>» Atuação em processos arbitrais nacionais e internacionais.</li>
-                    <li>» Consultoria na elaboração de convenções de arbitragem.</li>
-                
+                    <li>» Atuação em processos judiciais e arbitrais envolvendo Direito Imobiliário.</li>
+                    <li>» Assessoria para a elaboração de contratos em geral, como compra e venda, locação, comodato e incorporação.</li>
+                    <li>» Assessoria a empreendimentos, como condomínios e loteamentos.</li>
+                    <li>» Consultoria em matéria de legislação imobiliária.</li>
                 </ul>
             </div>
             <div className="especialidade">
@@ -55,12 +56,54 @@ export const Expertise: React.FC = () => {
                 </ul>
             </div>
             <div className="especialidade">
-                <h2>Direito Empresarial e Societário</h2>
+                <h2>Direito Empresarial</h2>
                 <ul>
-                    <li>» Atuação em processos judiciais e arbitrais envolvendo questões empresariais e societárias, como dissolução de sociedades, apuração de haveres, exclusão de sócios.</li>
                     <li>» Atuação em processos judiciais e arbitrais envolvendo questões de mercado de capitais.</li>
                     <li>» Assessoria para a constituição de sociedades, desde a formação até a participação e a condução de assembleias e reuniões.</li>
                     <li>» Assessoria em fusões e aquisições (M&A), identificando, medindo e prevenindo os riscos jurídicos das operações.</li>
+                </ul>
+            </div>
+            <div className="especialidade">
+                <h2>Direito Securitário</h2>
+                <ul>
+                    <li>» Atuação em processos judiciais e arbitrais envolvendo contrato de seguro.</li>
+                    <li>» Consultoria em matéria de legislação securitária.</li>
+                    <li>» Análise de contrato de seguro (condições gerais e especiais).</li>
+                </ul>
+            </div>
+            <div className="especialidade">
+                <h2>Direito de Trânsito</h2>
+                <ul>
+                    <li>» Atuação em processos administrativos e judiciais envolvendo Direito Tributário.</li>
+                    <li>» Execuções fiscais.</li>
+                </ul>
+            </div>
+            <div className="especialidade">
+                <h2>Direito Tributário</h2>
+                <ul>
+                    <li>» Atuação em processos administrativos e judiciais envolvendo Direito Tributário.</li>
+                    <li>» Execuções fiscais.</li>
+                </ul>
+            </div>
+            <div className="especialidade">
+                <h2>Direito da Saúde</h2>
+                <ul>
+                    <li>» Atuação em processos administrativos e judiciais envolvendo Direito Tributário.</li>
+                    <li>» Execuções fiscais.</li>
+                </ul>
+            </div>
+            <div className="especialidade">
+                <h2>Direito Educacional</h2>
+                <ul>
+                    <li>» Atuação em processos administrativos e judiciais envolvendo Direito Tributário.</li>
+                    <li>» Execuções fiscais.</li>
+                </ul>
+            </div>
+            <div className="especialidade">
+                <h2>Benefícios Assistênciais</h2>
+                <ul>
+                    <li>» Atuação em processos administrativos e judiciais envolvendo Direito Tributário.</li>
+                    <li>» Execuções fiscais.</li>
                 </ul>
             </div>
     </main>

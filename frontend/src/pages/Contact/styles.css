@@ -1,3 +1,18 @@
+main {
+display: flex;
+
+
+    
+}
+
+.mapAndInfo{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 60rem;
+    padding-bottom: 10rem;
+}
+
 .contact-title{
     display: flex;
     align-items: center;
@@ -7,8 +22,9 @@
     font-size: 40px;
 }
 
-div .contact-main{
+div .contact-main{ 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 45rem;
@@ -17,12 +33,12 @@ div .contact-main{
 
 .map{
     display: flex;  
-    border: 4px black solid;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.25);
+    border: 2px black solid;
 }
 
 .contact-info{
     display: flex;
-    margin-right: 5rem;
     font-family: sans-serif;
 }
 
@@ -35,14 +51,18 @@ div .contact-main{
 }
 
 .contact-list li {
+    padding: 0.5rem;
     display: flex;
     align-items: center;
     color: black;
     gap: 1rem;
     font-size: x-large;
+    border: 1px solid ;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
 }
 
-.contact-list a {
+.contact-list li a {
     font-weight: bold;
     color: black;
     transition: color 0.3s;
@@ -51,4 +71,12 @@ div .contact-main{
 .contact-list a:hover{
     color: #868585;
     transition: color 0.2s;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    max-width: 60rem;
+    padding-bottom: 10rem;
 }

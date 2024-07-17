@@ -9,11 +9,10 @@ import instagramImg from '../../assets/icons/instagram-logo-bold-black.svg'
 export const Contact: React.FC = () => {
   return (
     <>
-    
     <h2 className='contact-title'>Contato</h2>
-
+    <main>
+    <section className='mapAndInfo'>
     <div className="contact-main">
-
       <div className='map'>
       
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.2650063308856!2d-45.976020823846284!3d-23.306141852267128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdcb64fbe15443%3A0x38d37d94723646ce!2sR.%20Cap.%20Jo%C3%A3o%20Jos%C3%A9%20de%20Macedo%2C%20340%20-%20Centro%2C%20Jacare%C3%AD%20-%20SP%2C%2012327-030!5e0!3m2!1spt-BR!2sbr!4v1718316753703!5m2!1spt-BR!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -25,7 +24,7 @@ export const Contact: React.FC = () => {
           <ul className='contact-list'>
           <li>
           <img src={locationImg} alt="" />
-            Rua Capitão João José de Macedo, 340, 3° andar
+            <span>Rua Capitão João José de Macedo, <br/> 340, 3° andar </span>
           </li>
           <li>
             <img src={emailImg} alt="" />
@@ -44,10 +43,19 @@ export const Contact: React.FC = () => {
             <a target='_blank' href="https://www.instagram.com/advocaciafreitascouto/">@advocaciafreitascouto</a>
           </li>
           </ul>
-
       </div>
-    
     </div>
+    </section>
+
+    <section className='Form'>
+      <div>
+        <form>
+          <h1>Entre em contato conosco!</h1>
+          <input type="text" />
+        </form>
+      </div>
+    </section>
+    </main>
 
     </>
   )
