@@ -6,18 +6,17 @@ import phoneImg from '../../assets/icons/phone-bold-black.svg'
 import whatsappImg from '../../assets/icons/whatsapp-logo-bold-black.svg'
 import instagramImg from '../../assets/icons/instagram-logo-bold-black.svg'
 
+import ContactForm from '../../components/ContactForm/contactForm'
+
 export const Contact: React.FC = () => {
   return (
-    <>
+    <React.Fragment>
     <h2 className='contact-title'>Contato</h2>
-    <main>
-    <section className='mapAndInfo'>
-    <div className="contact-main">
-      <div className='map'>
       
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.2650063308856!2d-45.976020823846284!3d-23.306141852267128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdcb64fbe15443%3A0x38d37d94723646ce!2sR.%20Cap.%20Jo%C3%A3o%20Jos%C3%A9%20de%20Macedo%2C%20340%20-%20Centro%2C%20Jacare%C3%AD%20-%20SP%2C%2012327-030!5e0!3m2!1spt-BR!2sbr!4v1718316753703!5m2!1spt-BR!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <main className='main-contact'>
 
-      </div>
+    <section className='mapAndInfo'>    
+    <div className="contact-main">
       
       <div className='contact-info'>
 
@@ -45,18 +44,18 @@ export const Contact: React.FC = () => {
           </ul>
       </div>
     </div>
-    </section>
 
-    <section className='Form'>
-      <div>
-        <form>
-          <h1>Entre em contato conosco!</h1>
-          <input type="text" />
-        </form>
+    <div className='map'>
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.2650063308856!2d-45.976020823846284!3d-23.306141852267128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdcb64fbe15443%3A0x38d37d94723646ce!2sR.%20Cap.%20Jo%C3%A3o%20Jos%C3%A9%20de%20Macedo%2C%20340%20-%20Centro%2C%20Jacare%C3%AD%20-%20SP%2C%2012327-030!5e0!3m2!1spt-BR!2sbr!4v1718316753703!5m2!1spt-BR!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
       </div>
     </section>
-    </main>
 
-    </>
+    <div className='Form'>
+      <ContactForm></ContactForm>
+    </div>
+    </main>
+    </React.Fragment>
   )
 }

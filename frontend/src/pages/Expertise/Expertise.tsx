@@ -8,7 +8,7 @@ export const Expertise: React.FC = () => {
   return (
     <>
     <h1 className='expertise-title'>Especialidades</h1>
-    <main>
+    <main className='expertise-main'>
             <div className='especialidade'>
                 <h2>Direito Imobiliário</h2>
                 <ul>

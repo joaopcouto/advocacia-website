@@ -1,12 +1,11 @@
-main {
-display: flex;
-
-
-    
+.main-contact {
+    display: flex;
+    margin: 0;
+    padding: 2rem;
+    width: 99vw;
 }
 
 .mapAndInfo{
-    margin-top: 10rem;
     display: flex;
     flex-direction: column;
     max-width: 60rem;
@@ -63,7 +62,7 @@ div .contact-main{
 }
 
 .contact-list li a {
-    font-weight: bold;
+    font-weight: 100;
     color: black;
     transition: color 0.3s;
 }
