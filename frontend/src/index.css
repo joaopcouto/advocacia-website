@@ -16,12 +16,15 @@ a {
 :root {
   font-family: "Merriweather", serif;
   
+  --global-primary-color: #B1997B; 
+  --global-secondary-color: #B4814A;
+  --bg-color: #17333C;
+
   font-weight: 400;
   font-style: normal;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

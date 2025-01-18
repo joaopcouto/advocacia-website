@@ -1,49 +1,117 @@
-footer{
-    font-family: sans-serif;
-    width: 100%;
-    height: 12rem;
-    position: static;
-    padding-top: 0.8rem;
-    bottom: 0;
-    background-color: #212121;
-    box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.25);
+footer {
+  font-family: sans-serif;
+  width: 100%;
+  height: 9.4rem;
+  position: static;
+  bottom: 0;
+  background-color: var(--bg-color);
+  color: var(--global-primary-color);
+  box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-div .footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1240px;
-    margin: 0 auto;
-    padding: 1rem 2rem;
+div .footer-content {
+  display: flex;
+  /* justify-content: space-between; */
+  /* max-width: 1240px; */
+  gap: 6rem;
+  background-color: red;
 }
 
-div .footer-brand{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+div .footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20rem;
 }
 
-div .footer-brand .text-oab{
-    color: #fff;
-    font-size: smaller;
-    font-weight: bold;
+div .footer-brand .text-oab {
+  color: var(--global-primary-color);
+  font-size: smaller;
+  font-weight: bold;
 }
 
-div .footer-brand .logoImg{
-    max-width: 130px;
-    max-height: 130px;
+div .footer-brand .logoImg {
+  max-width: 130px;
+  max-height: 110px;
 }
 
-div .footer-contact li{
+div .footer-contact {
+  display: flex;
+  flex-direction: column;
+  margin-right: 17rem;
+}
+
+div .footer-location {
+  display: flex;
+  flex-direction: column;
+}
+
+div .description-location {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+}
+
+div .description-contact-phone .text-phone {
+  color: var(--global-secondary-color);
+}
+
+div .footer-location .header-location {
+  display: flex;
+  gap: 0.5rem;
+  padding-bottom: 1.5rem;
+}
+
+div .footer-location .header-location .title-location {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+div .footer-contact .header-contact {
+  display: flex;
+  gap: 0.5rem;
+  padding-bottom: 1.5rem;
+}
+
+div .footer-contact .header-contact .title-contact {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+div .description-contact-email {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+}
+
+div .description-contact-phone {
+  display: flex;
+  align-items: center;
+  color: var(--global-secondary-color);
+  gap: 0.5rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+}
+
+div .description-location .description-location-text {
+  padding-bottom: 0.5rem;
+}
+
+/* div .footer-contact li{
     display: flex;
     align-items: center;
     gap: 0.7rem;
     color: #fff;
 }
 
-div .footer-contact ul.footer-list{
+div .footer-contact ul.footer-location{
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -52,7 +120,7 @@ div .footer-contact ul.footer-list{
 
 }
 
-div .footer-contact ul.footer-list img{
+div .footer-contact ul.footer-location img{
     max-width: 20px;
 }
 
@@ -66,4 +134,4 @@ div .footer-contact a{
 div .footer-contact a:hover{
     color: #ccc;
     transition: 0.2s;
-}
+} */

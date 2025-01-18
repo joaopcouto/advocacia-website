@@ -3,11 +3,10 @@ header{
     font-weight: 700;
     font-style: normal;
     width: 100%;
-    max-height: 12rem;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #212121;
+    background-color: #17333C;
     box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
     z-index: 1;
 }
@@ -26,35 +25,33 @@ header nav#navbar .nav-brand{
     align-items: center;
     color: #fff;
     gap: 1rem;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 header nav#navbar ul.nav-list{
     display: flex;
     align-items: center;
-    
     list-style: none;
     gap: 1.5rem;
 }
 
-header nav#navbar ul.nav-list li a{
-    color: white;
-    font-size: 1.2rem;
-    font-family: "Merriweather", serif;
+header nav#navbar ul.nav-list li a {
+    color: #B1997B;
+    font-size: 1.25rem;
+    font-family: "Times", serif;
     font-weight: 600;
     transition: color 0.3s;
     background: none;
     cursor: pointer;
-   
     border: none;
 }
 
-header nav#navbar ul.nav-list li a:hover{
-    color: #ccc;
+
+header nav#navbar ul.nav-list li a:hover {
+    color: #B4814A !important; 
     transition: color 0.2s;
-    
 }
 
-.logoImg{
-    max-width: 130px;
+.logoImg {
+    max-width: 95px;
 }
