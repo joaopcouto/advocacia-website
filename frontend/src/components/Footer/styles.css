@@ -58,6 +58,16 @@ div .description-contact-phone .text-phone {
   color: var(--global-secondary-color);
 }
 
+div .description-contact-email .text-email {
+  color: var(--global-sencondary-color);
+
+}
+
+div .description-contact-email a:hover {
+    color: var(--global-secondary-color); 
+    transition: color 0.2s;
+}
+
 div .footer-location .header-location {
   display: flex;
   gap: 0.5rem;

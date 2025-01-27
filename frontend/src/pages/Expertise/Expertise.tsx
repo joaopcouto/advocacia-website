@@ -1,8 +1,5 @@
 import React from 'react'
 import './styles.css'
-import { Header } from '../../components/Navbar/Header'
-import { Footer } from '../../components/Footer/Footer'
-import ScrollButton from '../../components/ScrollButton/ScrollButton'
 
 export const Expertise: React.FC = () => {
   return (

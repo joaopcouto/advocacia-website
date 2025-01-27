@@ -48,7 +48,7 @@ header nav#navbar ul.nav-list li a {
 
 
 header nav#navbar ul.nav-list li a:hover {
-    color: #B4814A !important; 
+    color: var(--global-secondary-color) !important; 
     transition: color 0.2s;
 }
 
