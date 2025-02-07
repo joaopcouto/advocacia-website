@@ -1,0 +1,79 @@
+.img-Martelo {
+  margin-top: 6rem;
+  max-width: 100%;
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  font-size: 48px;
+  color: var(--bg-color);
+}
+
+div .text-resume {
+  width: 1150px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 35%);
+}
+
+div .text-resume p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-style: italic;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.title-expertise {
+  display: flex;
+  justify-content: center;
+  margin-top: 25rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  font-size: 48px;
+  color: var(--bg-color);
+}
+
+div .card-container {
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    minmax(250px, 1fr)
+  ); /* 2 colunas responsivas */
+  gap: 4rem; /* Espaçamento reduzido entre os cards */
+  justify-content: center; /* Centraliza o grid como um todo */
+  justify-items: center; /* Centraliza cada card dentro de sua célula */
+  margin: 5rem auto 0; /* Centraliza o container verticalmente e nas laterais */
+  max-width: 1200px; /* Controla a largura máxima do container */
+  width: 90%; /* Deixa um pequeno espaço nas bordas da tela */
+}
+
+div .view-all-button {
+  display: flex;
+  background-color: var(--bg-color);
+  color: var(--global-secondary-color);
+  height: 50px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-size: 1.2rem;
+}
+
+div .button-container {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

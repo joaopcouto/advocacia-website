@@ -15,6 +15,12 @@ export const Footer: React.FC = () => {
         <p className="text-oab">OAB/SP 230.817 </p>
       </div>
 
+
+
+      
+
+      <div className="footer-location-container">
+
       <div className="footer-location">
         <div className="header-location">
           <h2 className="title-location">Localização</h2>
@@ -31,21 +37,29 @@ export const Footer: React.FC = () => {
         </div>
       </div>
 
+      </div>
+
+      <div className="footer-contact-container">
+
       <div className="footer-contact">
         <div className="header-contact">
           <h2 className="title-contact">Fale conosco</h2>
           <img src={phonebrown} alt="" />
         </div>
 
-        <div className="description-contact-email">
-          <img src={envelope} alt="" />
+        <div className="description-contact-email"> 
+          <img className="envelope" src={envelope} alt="" />
           <a className="text-email" href="mailto:advocaciafreitascouto@gmail.com">advocaciafreitascouto@gmail.com</a>
         </div>
         <div className="description-contact-phone">
-          <img className="text-phone" src={phonebrown2} alt="" />
+          <img className="phone" src={phonebrown2} alt="" />
           <a className="text-phone" href="tel:5512997398999">55 (12) 99739-8999</a>
         </div>
       </div>
+
+      </div>
+
+    
     </footer>
   );
 };
